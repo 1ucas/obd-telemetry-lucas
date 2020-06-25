@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OBD Telemetry</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="listPairedButton">List Paired Devices</string>
+    <string name="turnONButton">Turn On BT</string>
+    <string name="connectButtonString">Connect</string>
+    <string name="title_activity_connection_screen">ConnectionScreen</string>
+    <string name="title_activity_reading">ReadingActivity</string>
+    <string name="title_activity_console">ConsoleActivity</string>
+</resources>

@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ReadingActivity"
+    android:background="@drawable/fundoapp" >
+
+    <TextView
+        android:id="@+id/speedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rpmTextView2"
+        android:layout_below="@+id/rpmTextView2"
+        android:layout_marginTop="18dp"
+        android:text="Speed ="
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/voltageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speedTextView"
+        android:layout_below="@+id/speedTextView"
+        android:layout_marginTop="18dp"
+        android:text="Battery Voltage: "
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/fuelTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/voltageTextView"
+        android:layout_below="@+id/voltageTextView"
+        android:layout_marginTop="18dp"
+        android:text="Fuel Type: "
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tempoLigadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fuelConsumptionRateTextView"
+        android:layout_below="@+id/fuelConsumptionRateTextView"
+        android:layout_marginTop="18dp"
+        android:text="Tempo Ligado:  "
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/fuelConsumptionRateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fuelTypeTextView"
+        android:layout_below="@+id/fuelTypeTextView"
+        android:layout_marginTop="18dp"
+        android:text="Fuel Consumption: "
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/rpmTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Rpm ="
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/MassAirFLowRateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tempoLigadoTextView"
+        android:layout_below="@+id/tempoLigadoTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="MAF rate:  " />
+
+    <TextView
+        android:id="@+id/FuelLevelInputTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/MassAirFLowRateTextView"
+        android:layout_below="@+id/MassAirFLowRateTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="Fuel Level:  " />
+
+    <TextView
+        android:id="@+id/DistanceSinceCodesInputTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/FuelLevelInputTextView"
+        android:layout_below="@+id/FuelLevelInputTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="Dist Tranvel:  " />
+
+    <TextView
+        android:id="@+id/EngineFuelRateInputTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DistanceSinceCodesInputTextView"
+        android:layout_below="@+id/DistanceSinceCodesInputTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="Fuel Rate:  " />
+
+    <TextView
+        android:id="@+id/myErroTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EngineFuelRateInputTextView"
+        android:layout_below="@+id/EngineFuelRateInputTextView"
+        android:layout_marginTop="19dp"
+        android:text="Erros" />
+
+</RelativeLayout>
